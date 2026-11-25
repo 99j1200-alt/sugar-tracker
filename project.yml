@@ -1,0 +1,31 @@
+name: SugarTracker
+options:
+  bundleIdPrefix: com.sugartracker
+  developmentLanguage: ar
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  SugarTracker:
+    type: application
+    platform: iOS
+    sources:
+      - SugarTracker
+    scheme: {}
+    settings:
+      base:
+        PRODUCT_NAME: SugarTracker
+        PRODUCT_BUNDLE_IDENTIFIER: com.sugartracker.app
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        TARGETED_DEVICE_FAMILY: "1"
+        SWIFT_VERSION: "5.0"
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: "متابعة السكر"
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        CODE_SIGNING_ALLOWED: NO
+        CODE_SIGNING_REQUIRED: NO
+        CODE_SIGN_IDENTITY: ""
+        DEVELOPMENT_TEAM: ""
